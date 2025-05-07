@@ -7,6 +7,7 @@ class Heroi {
     this.idade = idade;
     this.tipo = tipo.toLowerCase(); // garantir letras minúsculas para comparar
   }
+  
 
   atacar() {
     let ataque;
